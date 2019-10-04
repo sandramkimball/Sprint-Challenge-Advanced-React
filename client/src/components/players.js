@@ -28,9 +28,8 @@ export default function Players(){
 
     return (
         <div>
-           {players.country && (
            <Chart countries={players.country}/>
-           )}
+           
             <CardContainer>
                 {players.map(player=>(
                     <PlayerCards

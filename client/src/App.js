@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Players from './components/players';
+import ToggleButton from './components/ToggleButton';
+// import Chart from './components/Chart';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>This Year's Top Players</h1>
+        <ToggleButton/>
       </header>
+      <div className = 'body'>
+        <Players/>
+      </div>
     </div>
   );
 }

@@ -17,3 +17,43 @@
 .App body {
   background: #d6d5d5;
 }
+
+.dark-mode{
+  background: #000;
+  color: #c0b0a1;
+}
+.toggle-button p{
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
+  text-align: left;
+}
+.toggle {
+  background: #c0b0a1;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 20px;
+}
+
+.dark-mode__toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.barchart{
+  margin: 20px auto;
+  background: #fff;
+  border: 1px solid gray;
+  color: red;
+}

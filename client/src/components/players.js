@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import PlayerCards from './playercard';
 import styled from 'styled-components';
+import Chart from './Chart';
 
 const CardContainer = styled.section`
     margin: 0 auto;
@@ -27,6 +28,9 @@ export default function Players(){
 
     return (
         <div>
+           {players.country && (
+           <Chart countries={players.country}/>
+           )}
             <CardContainer>
                 {players.map(player=>(
                     <PlayerCards

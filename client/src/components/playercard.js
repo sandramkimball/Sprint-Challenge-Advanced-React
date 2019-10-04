@@ -6,8 +6,7 @@ const StatCard = styled.div`
     width: 40%;
     max-width: 600px;
     padding: 0px 10px;
-    border: 1px solid #000;
-    background-color: linear-gradient(45deg, #000 30%, gray 90%)
+    background: linear-gradient(175deg, gray, #000);
     color: #fff;
     margin: 10px 0;
     text-align: left;`
